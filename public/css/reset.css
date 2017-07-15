@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+html, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, dl, dt, dd, ol, ul,
+li, legend, table, tbody, tr, th, td {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    padding: 0;
+}
+
+textarea {
+    margin: 0;
+}
+
+input, textarea {
+    outline: none;
+&:active, &:focus {
+               outline: none;
+           }
+}
+
+table {
+    border-spacing: 0;
+}
