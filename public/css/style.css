@@ -28,8 +28,8 @@
     padding-left: 10px;
 }
 /*.navbar-item_link.active {*/
-    /*color: blue;*/
-    /*text-decoration: underline;*/
+/*color: blue;*/
+/*text-decoration: underline;*/
 /*}*/
 .navbar-item_link {
     text-decoration: none;
@@ -44,8 +44,8 @@
 
 /* publicity */
 .publicity {
-    width:  300px;
-    height: 300px;
+    width:  30%;
+    height: 200px;
     margin: auto;
     border: 1px solid;
 }
@@ -53,32 +53,32 @@
 /*slide */
 #slide-container {
     background: gray;
-    height: 400px;
+    height: 30%;
     margin: auto;
-    width: 400px;
+    width: 50%;
     overflow: hidden;
     position: relative;
-    
+
 }
 
 #slide-carousel {
     white-space: nowrap;
     position: relative;
     transition: left .35s ease-in-out;
-    left:-400px;
+    left:-100%;
 }
 .img {
     width: 100%;
     display: inline-block;
-    
+
 }
 
 #next_btn{
-   right: 0; 
+    right: 0;
 }
 
 #prev_btn{
-   
+
 }
 
 .btn_search {
@@ -100,11 +100,10 @@
 }
 
 
- /*social network */
+/*social network */
 .social_network{
     text-align: center;
-    width: 500px;
-    margin: auto;
+
 }
 .social {
     margin-left: 5px;
@@ -112,12 +111,31 @@
 
 /* begin footer */
 .down {
-    position: absolute;
-    bottom:0;
-    width:100%;
+    margin-top: 50px;
+}
+.copy {
+    text-align: center;
 }
 
-.copy {
-    padding-left: 20px;
-    text-align: center;
+
+/* Paragraphes en bleu par défaut */
+p
+{
+    color: blue;
+}
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media all and (max-width: 1024px)
+{
+    .navbar {
+        height: 90px;
+    }
+    .navbar-el, .search {
+        display: block;
+    }
+    .search {
+        margin-left: 30px;
+        /*display: none;*/
+    }
+
 }

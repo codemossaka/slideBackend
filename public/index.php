@@ -52,12 +52,12 @@
             Facebook
         </a>
 
-        <a href="mailto:?subject=<SUBJECT>&body=<BODY>" class="social">
+        <a href="mailto:?subject=pe@yy.ru" class="social">
             Email
         </a>
     </div>
     <footer class="down">
-        <div class="copy">&copy Copyright</div>
+        <div class="copy">&copy Copyright <a href="http://webzo.com/">webzo</a></div>
     </footer>
 
 	<?php $con->jsParams(); ?>
